@@ -3,9 +3,13 @@ public class EstructuraDeDatos {
        ListNames objListNames = new ListNames();
        objListNames.showNames();
        
-    Piedrapap objPiedrapap = new Piedrapap();
-    objPiedrapap.startGame();
+        Piedrapap objPiedrapap = new Piedrapap();
+        objPiedrapap.startGame();
     
+        Promedio objPromedio = new Promedio();
+        objPromedio.prom();
+
+
 
     }
     
