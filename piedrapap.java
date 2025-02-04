@@ -1,7 +1,7 @@
 import java.util.Random;
 
-class piedrapap {
-    public static void main(String[] args) {
+class Piedrapap {
+    public void startGame() {
         String[] opciones = {"piedra", "papel", "tijera"};
         Random random = new Random();
         

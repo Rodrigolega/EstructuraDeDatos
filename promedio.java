@@ -1,5 +1,5 @@
-class Main {
-    public static void main(String[] args) { 
+class Promedio {
+    public static void prom(String[] args) { 
         double[] calificaciones = {8.5, 9.2, 7.3}; 
         double suma = 0;
 
@@ -9,5 +9,10 @@ class Main {
 
         double promedio = suma / calificaciones.length;
         System.out.println("El promedio es: " + promedio);
+
+
+        piedrapap jugo = new piedrapap();
+        jugo.juego();
+
     }
 }
