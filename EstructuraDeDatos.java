@@ -52,18 +52,29 @@ public class EstructuraDeDatos {
 
 
         //calcular el area de un circulo
-        Scanner objScanner1 = new Scanner(System.in);
+        //Scanner objScanner1 = new Scanner(System.in);
         //se usa scanner para usar su biblioteca y poder sacar la altura, esta se tiene que importar al inicio del main
-        System.out.print("Ingresa el radio del circulo: ");
-        double radio = objScanner1.nextDouble();
+        //System.out.print("Ingresa el radio del circulo: ");
+        //double radio = objScanner1.nextDouble();
 
         
-        CircleArea objCircle = new CircleArea();
-        double area1 = objCircle.calculateAreaCircle(radio);
+        //CircleArea objCircle = new CircleArea();
+        //double area1 = objCircle.calculateAreaCircle(radio);
         
-        System.out.println(String.format("El área del circulo con radio %.2f es de %.2f: ", radio, area1));
+        //System.out.println(String.format("El área del circulo con radio %.2f es de %.2f: ", radio, area1));
                 
-        objScanner1.close();
+        //objScanner1.close();
+
+        //imprimir lista de objetos ejemplo
+
+        ArrayListExample objArrayExample = new ArrayListExample();
+        objArrayExample.addCars("Mazda");
+        objArrayExample.addCars("Chevrolet");
+        objArrayExample.removeCar();
+
+        System.out.println(objArrayExample.returnSize());
+
+
     }
 }
 
