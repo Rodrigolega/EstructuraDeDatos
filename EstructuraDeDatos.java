@@ -75,6 +75,15 @@ public class EstructuraDeDatos {
         System.out.println(objArrayExample.returnSize());
 
 
+        //imprimir tamano de la matriz usando un multiarray
+        MultiArrayExample objMultiArray = new MultiArrayExample();
+        objMultiArray.Printbidimensionalarray();
+
+
+        //imprimir los numeros pares e impares
+        ExcersieNonPar objNonPar = new ExcersieNonPar();
+        objNonPar.CalculateNonePar();
+
     }
 }
 
