@@ -4,9 +4,12 @@
  * matricula: 15068
  * dia: 12/02/2025
  */
-import java.util.Scanner;
-public class EstructuraDeDatos {
-    public static void main(String[] args) {
+    
+ import java.util.Scanner;
+    public class EstructuraDeDatos {
+        public static void main(String[] args) {
+
+        /* 
         ListNames objListNames = new ListNames();
         objListNames.showNames();
 
@@ -82,7 +85,28 @@ public class EstructuraDeDatos {
 
         //imprimir los numeros pares e impares
         ExcersieNonPar objNonPar = new ExcersieNonPar();
-        objNonPar.CalculateNonePar();
+        objNonPar.calculateNonePar();
+*/
+
+        //1. ejercicio
+        Scanner objScanner = new Scanner(System.in);
+
+        System.out.print("examen parcial: ");
+        double examScore = objScanner.nextDouble();
+        System.out.print("Tareas: ");
+        double homeworkScore = objScanner.nextDouble();
+        double finalGrade = GradeCalculationPartial.partialGradeCalculation(examScore, homeworkScore);
+
+
+        System.out.printf("Calificación del parcial: %.1f", finalGrade);
+
+        objScanner.close();
+        System.out.println();
+
+
+        //2. ejercicio
+        SalesWithDiscount salesCalculator = new SalesWithDiscount();
+        salesCalculator.totalWithDiscount();
 
     }
 }
