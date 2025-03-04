@@ -4,12 +4,12 @@
  * matricula: 15068
  * dia: 12/02/2025
  */
-    
+   /*   
  import java.util.Scanner;
     public class EstructuraDeDatos {
         public static void main(String[] args) {
 
-        /* 
+       
         ListNames objListNames = new ListNames();
         objListNames.showNames();
 
@@ -86,7 +86,7 @@
         //imprimir los numeros pares e impares
         ExcersieNonPar objNonPar = new ExcersieNonPar();
         objNonPar.calculateNonePar();
-*/
+
 
         //1. ejercicio
         Scanner objScanner = new Scanner(System.in);
@@ -112,6 +112,6 @@
 }
 
             
-        
+        */
 
 
