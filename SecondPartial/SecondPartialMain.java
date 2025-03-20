@@ -58,5 +58,12 @@ public class SecondPartialMain {
 
         HashMapExample hashMap = new HashMapExample();
         hashMap.performOperations();
+        //index search 
+        int[] datos = {10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80};
+        int[] indices = {0, 4, 8, 12}; // Índices auxiliares
+        int buscar = 45;
+
+        // Como el método es estático, se puede llamar sin instanciar la clase
+        IndexedSearch.buscarElemento(datos, indices, buscar);
     }
 }

@@ -1,3 +1,10 @@
+/*
+ * Hash Map example
+ * Autor: Rodrigo Legarreta Soto
+ * matricula: 15068
+ * dia: 20/03/2025
+ */
+
 import java.util.HashMap;
 
 public class HashMapExample {
