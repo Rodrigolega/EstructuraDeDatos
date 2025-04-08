@@ -1,14 +1,10 @@
 public class BusquedaSecuencial {
-    public int busqueda(int numero){
-        int numeros[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
-        int indexFinal = -1;
-        for (int i = 0; i < numeros.length; i++) {
-            if(numeros[i] == numero){
-                indexFinal = i;
-            } 
-
-        } 
-        return (indexFinal);
+    public static int buscar(int[] arreglo, int objetivo) {
+        for (int i = 0; i < arreglo.length; i++) {
+            if (arreglo[i] == objetivo) {
+                return i; // Retorna la posición del elemento encontrado
+            }
+        }
+        return -1; // Retorna -1 si el elemento no está en el arreglo
     }
-}
-
+    }
