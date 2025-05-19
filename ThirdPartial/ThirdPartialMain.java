@@ -57,9 +57,9 @@ public class ThirdPartialMain {
         System.out.println("Cola Example");
         ColaExample cola = new ColaExample();
         // ENQUEUE: Agregando elementos a la cola
-        cola.agregarCliente("Cami");
+        cola.agregarCliente("jorge");
         cola.agregarCliente("Rodri");
-        cola.agregarCliente("Pau");
+        cola.agregarCliente("santi");
         // PEEK: Consultando quién está al frente
         System.out.println("Cliente al frente: " + cola.verClienteAlFrente());
         // DEQUEUE: Atendiendo clientes
